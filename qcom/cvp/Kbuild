@@ -1,3 +1,5 @@
+KBUILD_DTC_INCLUDE += $(srctree)/../sm8450/techpack/cvp
+
 dtbo-y += diwali-cvp.dtbo
 
 always-y	:= $(dtb-y) $(dtbo-y)

@@ -577,4 +577,5 @@ endif
 
 always-y	:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
+subdir-y	+= audio camera cvp display mmrm video
 clean-files	:= *.dtb *.dtbo
